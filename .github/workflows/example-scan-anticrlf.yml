@@ -1,12 +1,12 @@
 # This is an example workflow that scans a Python open-source pacakge via a git URL
 # You can use this as an example for your own remote scans
-name: Scan darrenpmeyer/logging-formatter-anticrlf
+name: Scan Example Test
 on:
   workflow_dispatch:
 
 jobs:
   endor-scan:
-    uses: endorlabs/endor-github-workflow/.github/workflows/scan-with-endorlabs.yml@v0
+    uses: arsalanendor/paolo_poc/.github/workflows/scan-with-endorlabs.yml@v0
     permissions:
       id-token: write      # allows authentication to Endor Labs using Actions OIDC JWT Token
       contents: read       # allows this job to clone org repos
