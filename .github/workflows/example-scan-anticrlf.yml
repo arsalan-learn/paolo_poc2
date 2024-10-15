@@ -11,7 +11,7 @@ jobs:
       id-token: write      # allows authentication to Endor Labs using Actions OIDC JWT Token
       contents: read       # allows this job to clone org repos
     with:
-      git-url: "https://github.com/arsalan-learn/python_poetry_test.git" 
+      git-url: "https://github.com/arsalan-learn/defaults_txt.git" 
       namespace: arsalan-learn
       upload-json: true
       is-pr: true
