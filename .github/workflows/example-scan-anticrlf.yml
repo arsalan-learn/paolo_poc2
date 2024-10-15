@@ -12,7 +12,7 @@ jobs:
       contents: read       # allows this job to clone org repos
     with:
       git-url: "https://github.com/arsalan-learn/python_poetry_test.git" 
-      namespace: ${{ vars.ENDOR_NAMESPACE }}
+      namespace: arsalan-learn
       upload-json: true
       is-pr: true
     secrets:
